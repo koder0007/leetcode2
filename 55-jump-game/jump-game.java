@@ -9,7 +9,7 @@ class Solution {
                 if(curr>max_reach){
                     max_reach= curr;
                 }
-                if(max_reach >= len){
+                if(max_reach >= len-1){
                     return true;
                 }
             }
