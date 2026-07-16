@@ -6,11 +6,11 @@ class Solution {
          if(s.charAt(i) == ' ')
          continue;
          else{
-            if(s.charAt(i)!= ' '){
+            
                 lastWordLen++;
                 if(  i !=0 && s.charAt(i-1) == ' ' )
                 return lastWordLen;
-            }
+            
          }
           
         }
